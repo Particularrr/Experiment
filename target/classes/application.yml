@@ -1,0 +1,22 @@
+server:
+  port: 28080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/contact?serverTimezone=GMT%2B8
+#    username: root
+#    password: root
+    #
+#
+#    url: jdbc:mysql://43.139.217.145:3306/contact?serverTimezone=GMT%2B8
+    username: contact
+    password: yKA4AWzxSWkAkJ32
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
